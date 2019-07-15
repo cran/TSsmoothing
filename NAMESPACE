@@ -1,0 +1,12 @@
+exportPattern("^[^\\.]")
+
+
+importFrom("grDevices", "grey", "rgb")
+importFrom("graphics", "axis", "grid", "layout", "lines", "par",
+          "plot")
+importFrom("stats", "time", "uniroot")
+importFrom("utils", "data")
+import("ggplot2")
+import("gridExtra")
+import("Matrix")
+import("MASS")
